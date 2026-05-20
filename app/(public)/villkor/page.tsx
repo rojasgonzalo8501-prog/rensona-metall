@@ -9,24 +9,23 @@ export const metadata: Metadata = {
 export default function VillkorPage() {
   return (
     <>
-      <section className="py-24 pt-32" style={{ background: "var(--color-dark)" }}>
-        <div className="max-w-3xl mx-auto px-6 lg:px-10">
-          <nav className="flex items-center gap-2 mb-8 text-xs" style={{ fontFamily: "var(--font-mono)", color: "rgba(255,255,255,0.4)", letterSpacing: "0.08em" }}>
-            <Link href="/" style={{ color: "rgba(255,255,255,0.4)" }} className="hover:opacity-80 transition-opacity">HEM</Link>
-            <span>›</span>
-            <span style={{ color: "var(--color-cu)" }}>VILLKOR</span>
-          </nav>
-          <h1 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(2.5rem, 6vw, 4.5rem)", lineHeight: 1, letterSpacing: "0.03em", color: "var(--color-white)" }}>
-            ALLMÄNNA VILLKOR
+      <section className="py-20 md:py-28 px-5 md:px-10 lg:px-14" style={{ background: "var(--color-dark)" }}>
+        <div className="max-w-3xl mx-auto">
+          <div className="flex items-center gap-3 mb-4">
+            <div className="w-6 h-px" style={{ background: "var(--color-cu-b)" }} />
+            <span className="font-mono text-[8.5px] tracking-[1.8px] uppercase" style={{ color: "var(--color-cu-b)" }}>Legal</span>
+          </div>
+          <h1 className="font-display text-[48px] md:text-[64px] leading-[0.92] tracking-wide uppercase mb-3" style={{ color: "var(--color-white)" }}>
+            Allmänna villkor.
           </h1>
-          <p style={{ fontFamily: "var(--font-body)", color: "rgba(250,247,243,0.5)", fontSize: "0.85rem", marginTop: "1rem" }}>
+          <p className="font-body text-sm" style={{ color: "rgba(250,247,243,0.4)" }}>
             Gäller från och med maj 2026 · Mercaskroten i Sverige AB
           </p>
         </div>
       </section>
 
-      <section style={{ background: "var(--color-bg)" }} className="py-16">
-        <div className="max-w-3xl mx-auto px-6 lg:px-10">
+      <section className="py-16 md:py-24 px-5 md:px-10 lg:px-14" style={{ background: "var(--color-bg)" }}>
+        <div className="max-w-3xl mx-auto">
           <div style={{ fontFamily: "var(--font-body)", fontSize: "0.95rem", color: "var(--color-txt)", lineHeight: 1.8 }}>
 
             {[

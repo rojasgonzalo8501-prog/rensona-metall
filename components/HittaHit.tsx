@@ -23,7 +23,7 @@ export function HittaHit() {
               {COMPANY.address}
             </h3>
             <p className="text-sm leading-relaxed mb-4" style={{ color: "var(--color-txt2)" }}>
-              Granne med Enköpings återvinningscentral. Lätt att hitta — skyltat från Industrivägen.
+              Centralt i Enköping. Lätt att hitta — nära Magasinsgatan.
             </p>
             <a
               href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(COMPANY.address)}`}

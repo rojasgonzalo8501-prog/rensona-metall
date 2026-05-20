@@ -9,16 +9,15 @@ export const metadata: Metadata = {
 const MILESTONES = [
   { year: "1984", text: "Grundades som Mercaskroten i Sverige AB i Enköping." },
   { year: "1997", text: "Auktorisering som bilskrotare — en av de första i Uppland." },
-  { year: "2005", text: "Ny anläggning på Industrivägen 12 med modern invägning." },
+  { year: "2005", text: "Ny anläggning på Magasinsgatan 2 med modern invägning." },
   { year: "2015", text: "Rebranding till Rensona Metall. Onlineprislista lanseras." },
   { year: "2022", text: "Ny avfuktningsanläggning — 98% av material återvinns." },
   { year: "2026", text: "Digital mottagning och live-prissättning driftsätts." },
 ];
 
 const TEAM = [
-  { name: "Björn Lindgren", role: "VD & ägare", desc: "Tredje generationen Lindgren i metallbranschen." },
-  { name: "Sonja Åberg", role: "Mottagningschef", desc: "20 år på anläggningen. Sköter kvalitetssäkring." },
-  { name: "Marcus Pettersson", role: "Logistik", desc: "Ansvarar för hämtningar och containertransporter." },
+  { name: "Adam Saleh", role: "Ägare", desc: "Driver Rensona Metall med fokus på rättvis prissättning och miljöansvar." },
+  { name: "Gonzalo Rojas", role: "Drift & digital", desc: "Ansvarar för den dagliga driften och den digitala plattformen." },
 ];
 
 export default function OmOssPage() {
